@@ -1,10 +1,10 @@
 Package: rpackagesassignment
 Type: Package
-Title: Enables user to read and summarize FARS data
+Title: rpackagesassignment
 Version: 0.1.0
 Author: Ellebaek, Thomas
 Maintainer: The package maintainer <not@areal.mail>
-Description: This is a package created as part of the online course
+Description: This is an R package created as part of the online course
 "Building R Packages". The functions are provided as part of the
 course material and not developed by the author.
 License: None

@@ -17,3 +17,9 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(rpackagesassignment)
 ```
+
+This is a package which enables users to read and summarize FARS data. To get
+started, users should have a local library with FARS data on their laptop and 
+files should be named "accident_<yyyy>.csv.bz2". Then the user should set the 
+working directory of their R session to the folder with the FARS data, and then
+the functionality can be used.
