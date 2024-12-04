@@ -16,6 +16,8 @@ A FARS data file name on the form  accident_yyyy.csv.bz2
 Construct file name from year.
 }
 \examples{
+\dontrun{
 make_filename(year=2013)
 make_filename(year="2014")
+}
 }

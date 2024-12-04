@@ -17,6 +17,8 @@ Content of file as a tibble.
 Read a FARS csv data file and return the content as a tibble.
 }
 \examples{
+\dontrun{
 my_data <- fars_read(filename = "path//to//my//csv//file.csv")
+}
 
 }

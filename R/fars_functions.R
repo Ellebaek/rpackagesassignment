@@ -8,7 +8,9 @@
 #' @return Content of file as a tibble. 
 #'
 #' @examples
+#' \dontrun{
 #' my_data <- fars_read(filename = "path//to//my//csv//file.csv")
+#' }
 #' 
 #' @importFrom readr read_csv
 #' @importFrom tibble as_tibble
@@ -34,8 +36,10 @@ fars_read <- function(filename) {
 #' @return A FARS data file name on the form  accident_yyyy.csv.bz2
 #'
 #' @examples
+#' \dontrun{
 #' make_filename(year=2013)
 #' make_filename(year="2014")
+#' }
 make_filename <- function(year) {
   year <- as.integer(year)
   sprintf("accident_%d.csv.bz2", year)
@@ -52,7 +56,9 @@ make_filename <- function(year) {
 #' @return List of tibbles. 
 #'
 #' @examples
+#' \dontrun{
 #' my_data <- fars_read_years(years = c(2013, 2014, 2015))
+#' }
 #' 
 #' @importFrom readr read_csv
 #' @importFrom tibble as_tibble
@@ -84,7 +90,9 @@ fars_read_years <- function(years) {
 #' @return List of tibbles.
 #'
 #' @examples
+#' \dontrun{
 #' my_data <- fars_summarize_years(years = c(2013, 2014, 2015))
+#' }
 #' 
 #' @importFrom readr read_csv
 #' @importFrom tibble as_tibble
@@ -116,7 +124,9 @@ fars_summarize_years <- function(years) {
 #' @return A state map with all year accidents.
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(state.num = 1, year = 2013)
+#' }
 #' 
 #' @importFrom readr read_csv
 #' @importFrom tibble as_tibble

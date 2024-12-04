@@ -17,6 +17,8 @@ List of tibbles.
 Apply function (\code{fars_read}) to a set of files by year references.
 }
 \examples{
+\dontrun{
 my_data <- fars_read_years(years = c(2013, 2014, 2015))
+}
 
 }

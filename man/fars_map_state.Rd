@@ -19,6 +19,8 @@ A state map with all year accidents.
 Read files by year references and map out state data for selected state.
 }
 \examples{
+\dontrun{
 fars_map_state(state.num = 1, year = 2013)
+}
 
 }

@@ -17,6 +17,8 @@ List of tibbles.
 Read and summarize FARS files by year references (group by years).
 }
 \examples{
+\dontrun{
 my_data <- fars_summarize_years(years = c(2013, 2014, 2015))
+}
 
 }
