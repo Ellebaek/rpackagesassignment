@@ -1,5 +1,5 @@
 ---
-title: "fars_functions"
+title: "FARS functions"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{fars_functions}
@@ -14,12 +14,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+## Setup
+
+```{r setup, eval=FALSE}
 library(rpackagesassignment)
 ```
 
-This is a package which enables users to read and summarize FARS data. To get
-started, users should have a local library with FARS data on their laptop and 
-files should be named "accident_<yyyy>.csv.bz2". Then the user should set the 
-working directory of their R session to the folder with the FARS data, and then
-the functionality can be used.
+## Description
+
+This is a package which enables users to read and summarize FARS data. 
+
+## Usage
+To get started, users should have a local library with FARS data on their laptop
+and files should be named `accident_<yyyy>.csv.bz2`. Then the user should set 
+the working directory of their R session to the folder with the FARS data, and 
+then the functionality can be used.
+
